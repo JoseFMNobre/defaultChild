@@ -22,8 +22,8 @@ class DefaultChildThemePlugin extends ThemePlugin {
 	 * @return null
 	 */
 	public function init() {
-		$this->setParent('defaultthemeplugin');
-		$this->modifyStyle('stylesheet', array('addLess' => array('styles/remove-borders.less')));
+		$this->setParent('DefaultManuscriptChildThemePlugin');
+		/*$this->modifyStyle('stylesheet', array('addLess' => array('styles/remove-borders.less')));*/
 	}
 
 	/**
